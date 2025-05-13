@@ -8,7 +8,7 @@
 
 Browse and address `TODO:` comments in `View -> Task List` to learn the codebase and understand next steps for turning the generated code into production code.
 
-Explore the [WinUI Gallery](https://www.microsoft.com/store/productId/9P3JFPWWDZRC) to learn about available controls and design patterns.
+Explore the [WinUI Gallery](https://apps.microsoft.com/detail/9P3JFPWWDZRC) to learn about available controls and design patterns.
 
 Relaunch Template Studio to modify the project by right-clicking on the project in `View -> Solution Explorer` then selecting `Add -> New Item (Template Studio)`.
 

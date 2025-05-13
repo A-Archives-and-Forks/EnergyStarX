@@ -27,7 +27,7 @@
   <a title="GitHub Release" href="https://github.com/JasonWei512/EnergyStarX/releases" target="_blank">
     <img src="https://img.shields.io/github/v/release/JasonWei512/EnergyStarX?label=Release&color=red" />
   </a>
-  <a title="Microsoft Store Rating" href="https://www.microsoft.com/store/productId/9NF7JTB3B17P" target="_blank">
+  <a title="Microsoft Store Rating" href="https://apps.microsoft.com/detail/9NF7JTB3B17P" target="_blank">
     <img src="https://img.shields.io/endpoint?color=blue&label=Microsoft%20Store%20Rating&url=https%3A%2F%2Fmicrosoft-store-badge.fly.dev%2Fapi%2Frating%3FstoreId%3D9NF7JTB3B17P" />
   </a>
   <a title="Crowdin" href="https://crowdin.com/project/energystarx" target="_blank">
