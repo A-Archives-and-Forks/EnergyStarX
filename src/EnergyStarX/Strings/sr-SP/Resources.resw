@@ -121,22 +121,23 @@
     <value>Energy Star X</value>
   </data>
   <data name="AppDescription" xml:space="preserve">
-    <value>🔋 Improve your device's battery life!
-Energy Star X leverages Windows 11's EcoQoS API (aka "Efficiency Mode") to throttle background applications to improve battery life and system thermal.
+    <value>🔋 Побољшајте трајање батерије вашег уређаја!
+Energy Star X користи EcoQoS API (познат као "Мод ефикасности") у Виндовс 11 за ограничавање позадинских апликација, чиме се побољшава трајање батерије и термалне особине система.
 
-For the best result, you need:
-- Windows 11 22H2 (Build 22621) or above
-- Intel 10th gen or newer mobile processors
-- AMD Ryzen 5000 or newer mobile processors
-- Qualcomm mobile processors
+За најбоље резултате потребно је:
 
-❤ Source code: https://github.com/JasonWei512/EnergyStarX
-🌏 Translate this app: https://crowdin.com/project/EnergyStarX
+- Виндовс 11 22H2 (22621) или новији
+- Интел 10. генерације или новији мобилни процесори
+- АМД Ризен 5000 или новији мобилни процесори
+- Qualcomm мобилни процесори
 
-Energy Star X is a GUI version of the open source software EnergyStar.</value>
+❤ Изворни код: https://github.com/JasonWei512/EnergyStarX
+🌏 Преведите ову апликацију: https://crowdin.com/project/EnergyStarX
+
+Energy Star X је GUI верзија отвореног софтвера EnergyStar.</value>
   </data>
   <data name="Shell_Help.Content" xml:space="preserve">
-    <value>Help</value>
+    <value>Помоћ</value>
   </data>
   <data name="Settings_About.Text" xml:space="preserve">
     <value>About this application</value>
@@ -224,7 +225,7 @@ See [Contributing.md](https://github.com/JasonWei512/EnergyStarX/blob/develop/do
     <value>Enable running at startup!</value>
   </data>
   <data name="Settings_ContactLink.Content" xml:space="preserve">
-    <value>Contact the developer</value>
+    <value>Контактирајте програмера</value>
   </data>
   <data name="Settings_RateLink.Content" xml:space="preserve">
     <value>Rate this app</value>
@@ -302,13 +303,13 @@ firefox.exe</value>
     <value>Scroll to Bottom</value>
   </data>
   <data name="Shell_FirstRunTeachingTip.CloseButtonContent" xml:space="preserve">
-    <value>Got it!</value>
+    <value>Разумем!</value>
   </data>
   <data name="Settings_ProcessWhitelist.Header" xml:space="preserve">
     <value>Edit process whitelist</value>
   </data>
   <data name="Settings_ProcessWhitelist_EditButton.Content" xml:space="preserve">
-    <value>Edit</value>
+    <value>Уреди</value>
   </data>
   <data name="ProcessWhitelistEditorDialogTitle" xml:space="preserve">
     <value>Edit process whitelist</value>
@@ -317,7 +318,7 @@ firefox.exe</value>
     <value>Modified</value>
   </data>
   <data name="Settings_ProcessWhitelistEditorDialog.CloseButtonText" xml:space="preserve">
-    <value>Cancel</value>
+    <value>Откажи</value>
   </data>
   <data name="Settings_ProcessWhitelistEditorDialog.PrimaryButtonText" xml:space="preserve">
     <value>Save</value>
