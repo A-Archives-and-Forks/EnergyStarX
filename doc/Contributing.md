@@ -53,7 +53,7 @@ This app is developed with C#, Windows App SDK (WinUI 3) and Template Studio.
 
 Before contributing, you need to install the toolchain:
 
-1. Follow [Microsoft's guide](https://learn.microsoft.com/windows/apps/windows-app-sdk/set-up-your-development-environment) to install Visual Studio and Windows App SDK (C#) workloads.
+1. Follow [Microsoft's guide](https://learn.microsoft.com/windows/apps/windows-app-sdk/set-up-your-development-environment) to install Visual Studio and Windows App SDK (C#) workloads. You may need to install Windows SDK 22000 manually ([download link](https://go.microsoft.com/fwlink/?linkid=2173746)).
    
 2. (Optional) Install these Visual Studio extensions:
    

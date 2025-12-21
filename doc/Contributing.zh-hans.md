@@ -49,7 +49,7 @@
 
 在贡献之前，你需要安装工具链：
 
-1. 根据 [微软的教程](https://learn.microsoft.com/windows/apps/windows-app-sdk/set-up-your-development-environment) 安装 Visual Studio 和 Windows App SDK (C#) 工作负荷。
+1. 根据 [微软的教程](https://learn.microsoft.com/windows/apps/windows-app-sdk/set-up-your-development-environment) 安装 Visual Studio 和 Windows App SDK (C#) 工作负荷。你可能需要手动安装 Windows SDK 22000（[下载链接](https://go.microsoft.com/fwlink/?linkid=2173746)）。
 
 2. （可选）安装这些 Visual Studio 扩展:
 
