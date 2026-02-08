@@ -20,18 +20,23 @@ jobs:
 
   build:
     needs: create-draft-release
-    runs-on: windows-latest
+    runs-on: ${{ matrix.runner-os }}
 
     strategy:
       matrix:
-        configuration: [Release]
-        platform: [x64, arm64]
+        include:
+        - runner-os: windows-latest
+          platform: x64
+
+        - runner-os: windows-11-arm
+          platform: arm64
 
     env:
       SOLUTION_NAME: EnergyStarX.sln
       PACKAGE_PROJECT_NAME: EnergyStarX
       TEST_PROJECT_NAME: EnergyStarX.Test
       CERT_FILE_NAME: GitHubActionsWorkflow.pfx
+      CONFIGURATION: Release
 
     defaults:
       run:
@@ -63,12 +68,11 @@ jobs:
     - name: Build solution
       run: |
         msbuild $env:SOLUTION_NAME `
-          /p:Configuration=${{ matrix.configuration }} `
+          /p:Configuration=${env:CONFIGURATION} `
           /p:Platform=${{ matrix.platform }}
 
     - name: 🧪 Unit testing
-      if: matrix.platform == 'x64'  # GitHub Action only provides x64 Windows machines, which cannot run cross-compiled ARM64 tests
-      run: vstest.console.exe ${env:TEST_PROJECT_NAME}\bin\${{ matrix.platform }}\${{ matrix.configuration }}\**\${env:TEST_PROJECT_NAME}.dll
+      run: vstest.console.exe ${env:TEST_PROJECT_NAME}\bin\${{ matrix.platform }}\${env:CONFIGURATION}\**\${env:TEST_PROJECT_NAME}.dll
 
     - name: Get MSIX package output directory
       run: |
@@ -104,7 +108,7 @@ jobs:
         $certificateAbsolutePath = (Get-Item $env:CERT_FILE_NAME).FullName
 
         msbuild $env:PACKAGE_PROJECT_NAME `
-          /p:Configuration=${{ matrix.configuration }} `
+          /p:Configuration=${env:CONFIGURATION} `
           /p:Platform=${{ matrix.platform }} `
           /p:RuntimeIdentifier=win-${{ matrix.platform }} `
           `
